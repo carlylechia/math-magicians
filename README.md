@@ -1,8 +1,21 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# MATH-MAGICIANS
+
+> A single page calculator and quotes app built with REACT.
+
+## Built With
+
+- Javascript, HTML, CSS
+- npm webpack, linters
+- REACT
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -39,32 +52,51 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get a local copy up and running follow these simple example steps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+You will need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A laptop or tablet, preferably a laptop;
+A browser installed like Chrome, Firefox, etc;
+A text editor like installed Atom, VS-code, etc;
+Terminal or commandline;
+Internet connection.
 
-### Analyzing the Bundle Size
+### Setup, Install, and Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Proceed to follow these steps:
 
-### Making a Progressive Web App
+- Create a folder in the local storage of your computer which will contain the repository;
+- open your browser and go to [the project's repository on github](https://github.com/carlylechia/math-magicians);
+- Click on the `code button` and copy the https link that is provided on the dropdown;
+- open terminal or commandline from the folder you created in the first step, and type in the command, "git clone " and then paste the url you copied on the previous step, (https://github.com/carlylechia/math-magicians.git).
+- finally, you have the repository on your local computer storage. You can now open your text editor and import the repository to start making changes.
+- run `npm install` in the project directory to install node_modules and other dependencies.
+- also run `npm run start` to start the app
+- Now you're good to go.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors
 
-### Advanced Configuration
+👤 **Chia Carlyle**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@carlylechia](https://github.com/carlylechia)
+- Twitter: [@ChiaCarlyle](https://twitter.com/chiacarlyle)
+- LinkedIn: [Chia Carlyle](https://linkedin.com/in/chia-carlyle)
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions, issues, and feature requests are welcome!
 
-### `npm run build` fails to minify
+Feel free to check the [issues page](https://github.com/carlylechia/math-magicians/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to the Microverse team for the guidance and reviews.
