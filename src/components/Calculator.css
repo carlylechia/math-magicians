@@ -62,8 +62,12 @@ body {
   border-right: none;
 }
 
-.row:last-child > .cell:nth-last-child(3) {
+.row:last-child > .cell:nth-child(1) {
   width: 20vw;
+}
+
+.row:last-child > .cell:nth-child(2) {
+  height: 10.5vh;
 }
 
 span {
