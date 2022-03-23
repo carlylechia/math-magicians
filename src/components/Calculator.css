@@ -1,0 +1,75 @@
+/* stylelint-disable csstree/validator */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: none;
+}
+
+body {
+  background-color: silver;
+  display: grid;
+  place-content: center;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+#calculator {
+  width: 40vw;
+  margin: 6vh auto;
+}
+
+#result-section {
+  background: #858694;
+  color: #fff;
+  font-size: 40px;
+  padding: 2rem;
+}
+
+#result {
+  display: block;
+  text-align: right;
+}
+
+#opertations-section {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 30px;
+}
+
+.row {
+  width: 100%;
+  border-top: 1.5px solid #bababa;
+  border-bottom: 2px solid #bababa;
+}
+
+.cell {
+  text-align: center;
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 1.5rem 0;
+  width: 10vw;
+  box-sizing: border-box;
+  border-right: 0.2vw solid #bababa;
+}
+
+.cell:last-child {
+  background: #f5913e;
+  border-right: none;
+}
+
+.row:last-child > .cell:nth-child(1) {
+  width: 20vw;
+}
+
+.row:last-child > .cell:nth-child(2) {
+  padding: 1.5rem 0 1.2rem 0;
+}
+
+span {
+  cursor: default;
+}
