@@ -12,7 +12,7 @@ body {
   background-color: silver;
   display: grid;
   place-content: center;
-  font-family: "Roboto", sans-serif;
+  font-family: serif;
   height: 100vh;
   font-size: 2rem;
 }
@@ -26,7 +26,8 @@ body {
   background: #858694;
   color: #fff;
   font-size: 40px;
-  padding: 2rem;
+  padding: 2rem 0;
+  overflow-x: auto;
 }
 
 #result {
@@ -54,7 +55,7 @@ body {
   padding: 1.5rem 0;
   width: 10vw;
   box-sizing: border-box;
-  border-right: 0.2vw solid #bababa;
+  border-right: 2px solid #bababa;
 }
 
 .cell:last-child {
@@ -66,10 +67,19 @@ body {
   width: 20vw;
 }
 
-.row:last-child > .cell:nth-child(2) {
-  padding: 1.5rem 0 1.2rem 0;
-}
-
 span {
   cursor: default;
+  pointer-events: auto;
+}
+
+button {
+  border: none;
+  font-size: 1.5rem;
+}
+
+small {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
 }
