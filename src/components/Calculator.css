@@ -27,6 +27,7 @@ body {
   color: #fff;
   font-size: 40px;
   padding: 2rem 0;
+  overflow-x: auto;
 }
 
 #result {
@@ -68,4 +69,17 @@ body {
 
 span {
   cursor: default;
+  pointer-events: auto;
+}
+
+button {
+  border: none;
+  font-size: 1.5rem;
+}
+
+small {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
 }

@@ -22,14 +22,32 @@ class App extends Component {
         [0, '.', String.fromCharCode(0x003D)],
 
       ],
+      whatToCalculate: {
+        total: null,
+        next: null,
+        operation: null,
+      },
     };
+    this.handleCalculations = this.handleCalculations.bind(this);
+  }
+
+  handleCalculations(update) {
+    const { whatToCalculate } = this.state;
+    this.setState({
+      whatToCalculate: { ...whatToCalculate, ...update },
+    });
   }
 
   render() {
-    const { symbols } = this.state;
+    const { symbols, whatToCalculate } = this.state;
+    const { handleCalculations } = this;
     return (
       <div className="App">
-        <Calculator symbols={symbols} />
+        <Calculator
+          whatToCalculate={whatToCalculate}
+          calculationsHandler={handleCalculations}
+          symbols={symbols}
+        />
       </div>
     );
   }
