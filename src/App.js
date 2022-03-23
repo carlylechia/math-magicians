@@ -8,19 +8,18 @@ class App extends Component {
       symbols: [
         [
           'AC',
-          String.fromCharCode(0x207A) + String.fromCharCode(0x2215)
-      + String.fromCharCode(0x208B),
+          '+/-',
           '%',
           String.fromCharCode(0x00F7),
         ],
 
-        [7, 8, 9, String.fromCharCode(0x00D7)],
+        [7, 8, 9, 'x'],
 
         [4, 5, 6, String.fromCharCode(0x002D)],
 
         [1, 2, 3, String.fromCharCode(0x002B)],
 
-        [0, String.fromCharCode(0x065C), String.fromCharCode(0x003D)],
+        [0, '.', String.fromCharCode(0x003D)],
 
       ],
     };
