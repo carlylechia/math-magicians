@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     const { symbols } = this.state;
     return (
-      <div className="tool">
+      <div className="App">
         <Calculator symbols={symbols} />
       </div>
     );
