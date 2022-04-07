@@ -1,0 +1,26 @@
+#Navbar {
+  background: #1b202149;
+  position: relative;
+  padding: 3rem 0;
+}
+
+.top {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+.NavLink {
+  color: #fff;
+  font-weight: 300;
+  padding: 2rem;
+}
+
+.list {
+  list-style: none;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+}

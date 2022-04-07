@@ -1,0 +1,24 @@
+@import url('http://fonts.cdnfonts.com/css/sailor-vito');
+
+.home-text {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Sailor Vito', sans-serif;
+  width: 50vw;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.text-container {
+  background-color: rgba(237, 20, 60, 0.24);
+}
+
+.two {
+  padding-top: 2rem;
+}
