@@ -1,11 +1,10 @@
 #Navbar {
   background: #1b202149;
   position: relative;
-  padding: 3rem 0;
-}
-
-.top {
-  text-align: center;
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
 }
 
 h1 {
@@ -15,12 +14,31 @@ h1 {
 .NavLink {
   color: #fff;
   font-weight: 300;
-  padding: 2rem;
+  padding: 1rem;
+  transition: all 0.5s ease-in;
+}
+
+.NavLink:hover {
+  color: silver;
 }
 
 .list {
   list-style: none;
-  margin-left: 1rem;
+  margin-left: 3rem;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
   display: flex;
   justify-content: center;
+}
+
+#root #Navbar #NavbarList .list .mr5 .NavLink {
+  text-decoration: none;
+}
+
+.red {
+  color: rgba(237, 20, 60, 0.767);
+}
+
+#root #Navbar #NavbarList .list .mr5 .red {
+  text-decoration: underline;
 }

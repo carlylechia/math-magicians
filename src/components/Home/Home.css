@@ -6,6 +6,7 @@
   font-size: 20px;
   font-family: 'Sailor Vito', sans-serif;
   width: 50vw;
+  margin: auto;
 }
 
 .title {
@@ -16,7 +17,7 @@
 }
 
 .text-container {
-  background-color: rgba(237, 20, 60, 0.24);
+  background-color: rgba(237, 20, 60, 0.5);
 }
 
 .two {
