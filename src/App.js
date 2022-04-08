@@ -1,5 +1,10 @@
 import { Component } from 'react';
-import Calculator from './components/Calculator';
+import { Route, Routes } from 'react-router-dom';
+import Calculator from './components/Calculator/Calculator';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import Quote from './components/Quote/Quote';
+import './App.css';
 
 class App extends Component {
   constructor() {
@@ -43,11 +48,22 @@ class App extends Component {
     const { handleCalculations } = this;
     return (
       <div className="App">
-        <Calculator
-          whatToCalculate={whatToCalculate}
-          calculationsHandler={handleCalculations}
-          symbols={symbols}
-        />
+        <Navbar />
+        <Routes>
+          <Route
+            exact
+            path="Calculator"
+            element={(
+              <Calculator
+                whatToCalculate={whatToCalculate}
+                calculationsHandler={handleCalculations}
+                symbols={symbols}
+              />
+)}
+          />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="Quote" element={<Quote />} />
+        </Routes>
       </div>
     );
   }
