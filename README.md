@@ -4,6 +4,11 @@
 
 > A single page calculator and quotes app built with REACT.
 
+## Deployment
+
+Netlify: https://cosmic-brigadeiros-0dd9eb.netlify.app/
+Heroku: 
+
 ## Built With
 
 - Javascript, HTML, CSS
